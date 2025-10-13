@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SecureVault - Password Manager
 
 A secure, web-based password manager built with React, TypeScript, and Firebase that helps you safely store and manage all your credentials in one place.
@@ -29,11 +28,13 @@ A secure, web-based password manager built with React, TypeScript, and Firebase 
 1. **Clone or download the project files**
 
 2. **Install dependencies**:
+
    ```bash
    npm install
    ```
 
 3. **Set up Firebase**:
+
    - Create a new Firebase project at [https://console.firebase.google.com](https://console.firebase.google.com)
    - Enable Authentication (Email/Password)
    - Enable Firestore Database
@@ -41,6 +42,7 @@ A secure, web-based password manager built with React, TypeScript, and Firebase 
    - Copy your Firebase config and update `src/config/firebase.ts`
 
 4. **Initialize Firebase** (if not already done):
+
    ```bash
    npm install -g firebase-tools
    firebase login
@@ -48,11 +50,13 @@ A secure, web-based password manager built with React, TypeScript, and Firebase 
    ```
 
 5. **Start the development server**:
+
    ```bash
    npm start
    ```
 
 6. **Build for production**:
+
    ```bash
    npm run build
    ```
@@ -75,13 +79,14 @@ const firebaseConfig = {
   projectId: "your-project-id",
   storageBucket: "your-project.appspot.com",
   messagingSenderId: "123456789",
-  appId: "your-app-id"
+  appId: "your-app-id",
 };
 ```
 
 ### Security Rules
 
 The included Firestore security rules ensure that:
+
 - Users can only access their own credentials
 - All operations require authentication
 - Data is properly validated
@@ -111,17 +116,20 @@ The included Firestore security rules ensure that:
 ## 🛡️ Security Features
 
 ### Encryption
+
 - **Client-side encryption**: Passwords encrypted before sending to Firebase
 - **PBKDF2**: Key derivation with 10,000 iterations
 - **AES encryption**: Industry-standard encryption algorithm
 - **Zero-knowledge**: Firebase never sees your unencrypted passwords
 
 ### Authentication
+
 - **Firebase Auth**: Secure authentication service
 - **Master password**: Additional encryption layer
 - **Session management**: Automatic logout on inactivity
 
 ### Best Practices
+
 - **Strong passwords**: Built-in password strength checker
 - **Regular updates**: Monthly password change reminders
 - **Secure storage**: Encrypted storage in Firebase Firestore
@@ -130,6 +138,7 @@ The included Firestore security rules ensure that:
 ## 📊 Categories
 
 Organize your credentials with predefined categories:
+
 - Banking
 - Email
 - Social Media
@@ -188,11 +197,13 @@ src/
 ### Firebase Hosting
 
 1. **Build the application**:
+
    ```bash
    npm run build
    ```
 
 2. **Deploy to Firebase**:
+
    ```bash
    firebase deploy
    ```
@@ -215,12 +226,14 @@ const firebaseConfig = {
 ## 🔒 Privacy & Security
 
 ### Data Protection
+
 - **Local encryption**: All sensitive data encrypted on your device
 - **No plaintext storage**: Passwords never stored in plaintext
 - **Secure transmission**: HTTPS for all data transmission
 - **Zero-knowledge architecture**: Service provider cannot decrypt your data
 
 ### User Control
+
 - **Data ownership**: You control all your data
 - **Export capability**: Easy data export functionality
 - **Account deletion**: Complete data removal when deleting account
@@ -229,6 +242,7 @@ const firebaseConfig = {
 ## 🤝 Contributing
 
 This is a personal project template. Feel free to:
+
 - Fork and customize for your needs
 - Submit issues for bugs or feature requests
 - Contribute improvements via pull requests
@@ -247,6 +261,7 @@ This project is for educational and personal use. Please ensure compliance with 
 ## 🆘 Support
 
 For issues or questions:
+
 1. Check the Firebase console for authentication/database issues
 2. Review browser developer tools for client-side errors
 3. Ensure Firebase configuration is correct
@@ -255,6 +270,3 @@ For issues or questions:
 ---
 
 **⚡ Quick Start**: After setup, create an account, add a test credential, and explore the password management features. The application is designed to be intuitive and secure from day one.
-=======
-# password-manager
->>>>>>> eff17558ad981b32f88b63abe22623f366eea166
