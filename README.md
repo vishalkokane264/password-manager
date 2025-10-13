@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SecureVault - Password Manager
 
 A secure, web-based password manager built with React, TypeScript, and Firebase that helps you safely store and manage all your credentials in one place.
@@ -254,3 +255,6 @@ For issues or questions:
 ---
 
 **⚡ Quick Start**: After setup, create an account, add a test credential, and explore the password management features. The application is designed to be intuitive and secure from day one.
+=======
+# password-manager
+>>>>>>> eff17558ad981b32f88b63abe22623f366eea166
