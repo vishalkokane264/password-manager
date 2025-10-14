@@ -270,3 +270,19 @@ For issues or questions:
 ---
 
 **⚡ Quick Start**: After setup, create an account, add a test credential, and explore the password management features. The application is designed to be intuitive and secure from day one.
+
+## Firebase Deployment
+
+The application is live and hosted on Firebase Hosting. You can access it here:
+
+[Password Manager Live App](https://pwd-mgr-a9e5f.web.app)
+
+### Deployment Steps
+
+1. Ensure all changes are committed and pushed to the `main` branch.
+2. The GitHub Actions workflow (`firebase-deploy.yml`) will automatically build and deploy the app.
+3. Alternatively, you can deploy manually using the Firebase CLI:
+   ```bash
+   npm run build
+   firebase deploy
+   ```
