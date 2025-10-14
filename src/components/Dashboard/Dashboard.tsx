@@ -43,16 +43,11 @@ import {
   StarBorder,
   Warning,
   History,
-  Refresh,
   MoreVert,
 } from "@mui/icons-material";
 import { signOut } from "firebase/auth";
 import { auth } from "../../config/firebase";
-import {
-  Credential,
-  CredentialCategory,
-  PasswordHistory,
-} from "../../types/credential";
+import { Credential, CredentialCategory } from "../../types/credential";
 import { CredentialService } from "../../services/credentialService";
 import { EncryptionService } from "../../services/encryptionService";
 

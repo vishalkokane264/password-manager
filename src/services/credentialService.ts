@@ -11,11 +11,7 @@ import {
   Timestamp,
 } from "firebase/firestore";
 import { db, auth } from "../config/firebase";
-import {
-  Credential,
-  CredentialCategory,
-  PasswordHistory,
-} from "../types/credential";
+import { Credential, PasswordHistory } from "../types/credential";
 import { EncryptionService } from "./encryptionService";
 
 export class CredentialService {
